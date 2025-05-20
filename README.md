@@ -1,12 +1,6 @@
 ---
-title: News Article Classifier Based On BERT Model
-emoji: 👁
-colorFrom: purple
-colorTo: blue
+title: News_article_classifier_based_on_BERT_model
+app_file: demo.py
 sdk: gradio
-sdk_version: 5.30.0
-app_file: app.py
-pinned: false
+sdk_version: 5.29.1
 ---
-
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference

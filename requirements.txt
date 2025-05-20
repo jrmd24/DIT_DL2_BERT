@@ -1,0 +1,9 @@
+wandb
+transformers
+numpy 
+pandas 
+openpyxl 
+torch 
+torchvision 
+torchaudio
+gradio
