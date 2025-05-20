@@ -63,10 +63,17 @@ def find_category(
     return y_pred
 
 
-demo = gr.Interface(
-    fn=find_category,
-    inputs=["text"],
-    outputs=["text"],
-)
+with gr.Blocks() as demo:
+    gr.Markdown(
+        "<h1 style='text-align: center;'>CUSTOM MODEL BASED ON BERT BASE TO CLASSIFY NEWS ARTICLES</h1>"
+    )
+    gr.Markdown(
+        "<h2 style='text-align: center;'>Model loss during training and eval time</h2>"
+    )
 
-demo.launch()
+    with gr.Row():
+        gr.Image(value="wandb_chart_train.png", label="Training Loss")
+        gr.Image(value="wandb_chart_eval.png", label="Eval Loss")
+    gr.Interface(fn=find_category, inputs=["text"], outputs=["text"], live=False)
+
+demo.launch(share=True)
