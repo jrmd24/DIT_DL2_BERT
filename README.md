@@ -14,4 +14,13 @@ The "Demo.py" is a gradio application showing the graph of the losses collected 
 
 ![Alt text](HomeGradio.png)
 
-L'application de démonstration du modèle est accessible via le lien : https://jrmd-bert-based-news-classification.hf.space/?logs=container&__theme=system&deep_link=bpiyD9W-I0k
+To run this on your computer :
+- Clone the repo : git clone https://github.com/jrmd24/DIT_DL2_BERT.git
+- Download the model (https://huggingface.co/jrmd/BERT-BASED-NEWS-CLASSIFICATION/resolve/main/custom_bert_model.torch?download=true) and place it in the same folder as the "demo.py" file
+- Install gradio : pip install gradio # It is recommended to install it in a python virtual environment
+- Run the app : python demo.py
+- Navigate on your computer at the following url : http://localhost:7860
+- Input news article text in the "input" field then click on the "submit"
+
+An online link allows to access the app, but the inference might not be functional on it yet : https://jrmd-bert-based-news-classification.hf.space/?logs=container&__theme=system&deep_link=bpiyD9W-I0k
+
