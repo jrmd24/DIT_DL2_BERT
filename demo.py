@@ -74,6 +74,7 @@ with gr.Blocks() as demo:
     with gr.Row():
         gr.Image(value="wandb_chart_train.png", label="Training Loss")
         gr.Image(value="wandb_chart_eval.png", label="Eval Loss")
+
     gr.Interface(fn=find_category, inputs=["text"], outputs=["text"], live=False)
 
 demo.launch(share=True)

@@ -7,3 +7,5 @@ torch
 torchvision 
 torchaudio
 gradio
+seaborn
+scikit-learn
