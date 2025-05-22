@@ -2,6 +2,7 @@
 license: apache-2.0
 title: NEWS ARTICLE CLASSIFIER BASED ON BERT MODEL
 sdk: gradio
+app_file: demo.py
 pinned: false
 ---
 
