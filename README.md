@@ -1,3 +1,10 @@
+---
+license: apache-2.0
+title: NEWS ARTICLE CLASSIFIER BASED ON BERT MODEL
+sdk: gradio
+pinned: false
+---
+
 # NEWS ARTICLE CLASSIFIER BASED ON BERT MODEL
 
 This contains the code to train a pretrained BERT Base model to classify news articles into categories like "sport", "politics", or "tech". The BBC news dataset was used to perform the training. 
