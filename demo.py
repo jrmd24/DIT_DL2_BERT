@@ -19,8 +19,8 @@ from DL2_BERT_Model_Based_Classification import CustomBertModel
 SAVED_TARGET_CAT_PATH = "bbc-news-categories.torch"
 # The actual is too large to be stored in github.
 # So It is avaailable at the following URL : https://drive.google.com/file/d/1o-TDzHJwQfgw_y9R5PWo4TigkpYuSKmd/view?usp=sharing
-# SAVED_MODEL_PATH = "custom_bert_model.torch"
-SAVED_MODEL_PATH = "https://huggingface.co/jrmd/BERT-BASED-NEWS-CLASSIFICATION/blob/main/custom_bert_model.torch"
+SAVED_MODEL_PATH = "custom_bert_model.torch"
+# SAVED_MODEL_PATH = "https://huggingface.co/jrmd/BERT-BASED-NEWS-CLASSIFICATION/blob/main/custom_bert_model.torch"
 
 
 def find_category(
