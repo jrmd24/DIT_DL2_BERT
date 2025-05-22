@@ -2,7 +2,7 @@
 title: News_article_classifier_based_on_BERT_model
 app_file: demo.py
 sdk: gradio
-sdk_version: 5.29.1
+sdk_version: 5.30.0
 ---
 
 This contains the code to train a pretrained BERT Base model to classify news articles into categories like "sport", "politics", or "tech". The BBC news dataset was used to perform the training. 
@@ -23,4 +23,3 @@ To run this on your computer :
 - Input news article text in the "input" field then click on the "submit"
 
 An online link allows to access the app, but the inference might not be functional on it yet : https://jrmd-bert-based-news-classification.hf.space/?logs=container&__theme=system&deep_link=bpiyD9W-I0k
-
