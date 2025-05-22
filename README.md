@@ -25,5 +25,5 @@ To run this on your computer :
 - Navigate on your computer at the following url : http://localhost:7860
 - Input news article text in the "input" field then click on the "submit"
 
-An online link allows to access the app, but the inference might not be functional on it yet : https://jrmd-bert-based-news-classification.hf.space/?logs=container&__theme=system&deep_link=bpiyD9W-I0k
+An online link allows to access the app : https://jrmd-bert-based-news-classification.hf.space/?logs=container&__theme=system&deep_link=bpiyD9W-I0k
 
