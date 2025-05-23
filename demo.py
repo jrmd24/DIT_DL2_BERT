@@ -68,6 +68,9 @@ with gr.Blocks() as demo:
     gr.Markdown(
         "<h1 style='text-align: center;'>CUSTOM MODEL BASED ON BERT BASE TO CLASSIFY NEWS ARTICLES</h1>"
     )
+
+    gr.Interface(fn=find_category, inputs=["text"], outputs=["text"], live=False)
+
     gr.Markdown(
         "<h2 style='text-align: center;'>Model loss during training and eval time</h2>"
     )
@@ -76,6 +79,14 @@ with gr.Blocks() as demo:
         gr.Image(value="wandb_chart_train.png", label="Training Loss")
         gr.Image(value="wandb_chart_eval.png", label="Eval Loss")
 
-    gr.Interface(fn=find_category, inputs=["text"], outputs=["text"], live=False)
+    gr.Markdown(
+        "<h2 style='text-align: center;'>Confusion matrix obtained from model evaluation on BBC News dataset</h2>"
+    )
+
+    with gr.Row():
+        gr.Image(
+            value="CM_BBC_NEWS_DS.png", label="Confusion Matrix from model evaluation"
+        )
+
 
 demo.launch(share=True)
