@@ -1,7 +1,3 @@
 wandb
-<<<<<<< HEAD
-=======
-custom_bert_model.torch
->>>>>>> d66f747d5ae1b00ab25602a16f381720ec237f22
 __pycache__
 .gradio
